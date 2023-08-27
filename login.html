@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+    <link rel="stylesheet"   href="login.css">
+</head>
+<body>
+    <nav class="logo_main">
+        <img src="used.jpg"  height="50px">
+
+    </nav>
+    <div  class="form_div">
+        
+        <h1>Welcome back</h1>
+        <p>Type your Username and password to login</p>
+        
+        <form id="form-class">
+            <p>
+            <label for="username"></label>
+            <input type="text" id="username" name="username" placeholder="Username" required minlength="3">
+        </p>
+        <p>
+            <label for="Password"></label>
+            <input type="password" id="password" name="password" placeholder="Password" required minlength="3">
+        </p>
+        
+            <button type="submit" id="submit"  onclick="Redirect();">login</button>
+        
+        </form>
+        <p>Or continue with</p>
+        <a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-twitter"></a>
+<p>Don't have an account yet ? <a  href="signup.html">Sign Up</a></p>
+</body>
+<script src="script.js"></script>
+</html>
